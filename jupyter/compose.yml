@@ -1,0 +1,10 @@
+version: '2'
+services:
+
+    jupyter:
+        build: .
+        ports:
+            - "8888:8888"
+        volumes:    
+            - /c/Users/asochal/volumes/ai_fabric/ntbs:/home/docker/fastai-courses/deeplearning1/nbs
+    
