@@ -6,5 +6,5 @@ services:
         ports:
             - "8888:8888"
         volumes:    
-            - /c/Users/asochal/volumes/ai_fabric/ntbs:/home/docker/fastai-courses/deeplearning1/nbs
+            - /Users/admin/ansosoft/volumes/ai_fabric/ntbs:/home/docker/fastai-courses/deeplearning1/nbs
     
